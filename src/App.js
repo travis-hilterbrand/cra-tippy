@@ -4,7 +4,7 @@ import 'tippy.js/dist/tippy.css'
 
 import './App.css';
 
-const ShowDelay = 1000;
+const ShowDelay = [1000, 0];
 
 const StringContent = () => (
   <Tippy content="Hello" delay={ShowDelay}>
